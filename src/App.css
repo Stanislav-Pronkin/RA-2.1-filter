@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin: 10px auto;
+  max-width: 950px;
+}
+
+.projectList {
+  column-count: 3;
+  line-height: 2;   
+}
+
+.itemProject {
+  width: 300px;
+}
+
+.itemProject img {
+  width: 100%;
+}
+
+.buttons {
+  margin: 10px 0 10px 0;
+}
+
+.btn {
+  background-color: #ffffff;
+   color: #555555;
+   border: 1px solid #282c34;
+   padding: 10px;
+   text-transform: uppercase;
+   margin-right: 10px;
+
+}
+
+.selected{
+   color: #ffffff;
+  background-color:#555555;
+
+}
